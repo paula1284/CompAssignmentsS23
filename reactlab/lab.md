@@ -10,7 +10,7 @@ React is a frontend framework used by the Crimson. It is developed by Facebook. 
 The main object in React is the *Component*, an object managing its own states that can be rendered. There will be many times during this project where you want to visit the [React documentation](https://reactjs.org). A component is essentially a "smart" HTML tag - it can use Javascript. We won't be using too many of the fancy features of components today; the codebase in general doesn't seem to have too much of it. Instead, today we will be looking at how to set up queries on the frontend, and how we can then display this data to the user.
 
 ## Installing React
-0. You probably know the drill by now, but you will need to pull from upstream. This means `git pull upstream master` and resolve any merge conflicts that arise.
+0. You probably know the drill by now, but you will need to pull from upstream. This means `git pull upstream main` and resolve any merge conflicts that arise.
 1. Install Node.js. This is quite simple now that we have experience with the terminal! For MacOS, type `brew install node`. For Linux/WSL, use `sudo apt install nodejs`.
 2. Check your versions by typing `node -v` and `npm -v`. `npm` comes packaged with Node. To run react, you will need `npm` version 5 or above and node version 8 or above.
 3. If you do not have version 5 or above, run `npm install -g npm@latest`. This should get you the latest version.
@@ -75,7 +75,7 @@ This is an example of a functional component. There are also class components, a
 
 The point of entry here is `index.js`. If we look inside, we see that it does some setup and then calls `App`, which is imported from `App.tsx`. `App.tsx` then has a Router that displays an appropriate component given the url, which is discussed in a little bit.
 
-Head to `localhost:3000`. You see `i am the main page no`, which corresponds to the text in the `MainPage` component we just talked about. Why is this one being displayed? Because of the Router.
+Head to `localhost:3000`. You see `i am the main page now`, which corresponds to the text in the `MainPage` component we just talked about. Why is this one being displayed? Because of the Router.
 
 ### Router Component
 
