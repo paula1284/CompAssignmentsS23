@@ -1,5 +1,5 @@
-# CompAssignmentsS22
-## Welcome to CrimTech Comp S22!!
+# CompAssignmentsS23
+## Welcome to CrimTech Comp S23!!
 
 We are excited to have you!!
 You can find all the information you need at:
