@@ -1,6 +1,13 @@
 def rm_smallest(d):
-    # Your code here!
-    return 0;
+    values = list(d.values())
+    if not(values):
+        return d
+    n = values[0]
+    for i in range(len(values)):
+        if values[i] < n:
+            n = values[i]
+    d.pop(list(d.keys())[values.index(n)])
+    return d
 
 def test():
     assert 'a' in rm_smallest({'a':1,'b':-10}).keys()
